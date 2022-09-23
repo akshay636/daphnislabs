@@ -1,0 +1,42 @@
+.list-group-item{
+    border: none !important;
+    font-size: 12px;
+    font-weight: 800;
+  
+}
+.sidebar{
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.selected{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 189, 189);
+    border-radius: 11px;
+}
+.side{
+    margin: 5px;
+}
+.searchBar{
+    margin-left: 15px;
+   
+}
+.mainDiv{
+    display: flex ;
+}
+.cartItems{
+    display: flex;
+    margin: -2px;
+    flex-direction: row;
+}
+.row {
+    --bs-gutter-x: -0.5rem !important;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}

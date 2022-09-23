@@ -1,0 +1,85 @@
+.brandahead {
+  width: 40px;
+  height: 40px;
+  background-color: gainsboro;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px; 
+   padding-bottom: 0px;
+}
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+.navbarbg {
+  background-color: rgb(109, 28, 28);
+  color: white
+}
+
+.colorWhite {
+  color: white !important
+}
+
+.navmiddlemargin {
+  margin-left: 300px;
+}
+
+.loginuser {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.loginbutton {
+  color: white !important;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.user {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+/* home csss */
+/* .height {
+  height: 100vh;
+} */
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+  width: 490px;
+}
+.search input {
+  height: 40px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+}
+.search .fa-search {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+.search button {
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  height: 40px;
+  width: 110px;
+}
+
+/* home css end */
+/* cards start*/
+.card-title{
+  font-size: 1rem !important;
+}
+/* cards end */
