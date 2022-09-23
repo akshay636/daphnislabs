@@ -56,7 +56,7 @@ const Home = () => {
             
           </button>
           &nbsp;&nbsp;
-          <span style={{ color: "#b30000" }}>Remove all</span>
+          <span style={{ color: "#b30000",cursor:"pointer" }}>Remove all</span>
         </p>
       </div>
     </div>
