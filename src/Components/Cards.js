@@ -14,7 +14,7 @@ const Cards = () => {
                 </div>
                 <div style={{border:"1px solid #868e96"}}>
                 </div>
-                <a style={{ color: "#0fbdbd", fontSize: "1.2rem", fontWeight:"800" }}><FaPaperPlane/> Contact Supplier</a>
+                <a href='#' style={{ color: "#0fbdbd", fontSize: "1.2rem", fontWeight:"800", cursor:"pointer", textDecoration:"none" }}><FaPaperPlane/> Contact Supplier</a>
             </div>
 
 

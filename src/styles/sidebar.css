@@ -2,7 +2,7 @@
     border: none !important;
     font-size: 12px;
     font-weight: 800;
-  
+    cursor: pointer;
 }
 .sidebar{
     margin: 3px;
